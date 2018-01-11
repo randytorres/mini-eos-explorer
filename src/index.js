@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import EosTextParagraphComponent from './EosTextParagraphComponent';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <EosTextParagraphComponent />,
+  document.getElementById('root')
+);
+
 registerServiceWorker();
