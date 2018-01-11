@@ -3,7 +3,7 @@ import Eos from 'eosjs';
 
 const EOS_LOGO = "https://d340lr3764rrcr.cloudfront.net/Images/EOS_spinning_logo.gif";
 
-let eos = Eos.Localnet()
+let eos = Eos.Testnet({ httpEndpoint: 'http://t1readonly.eos.io' });
 
 class EosTextParagraphComponent extends Component {
   constructor(props) {
